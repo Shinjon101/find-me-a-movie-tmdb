@@ -17,5 +17,4 @@ COPY . .
 EXPOSE 5173
 
 # Start development server
-# --host 0.0.0.0 allows external connections
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
